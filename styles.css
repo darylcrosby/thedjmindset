@@ -82,7 +82,7 @@ img.hero-image,img.hero-photo{
 }
 
 .hero-image{
-hero-boardroom-dj.png  background-size: contain !important;
+url("hero-boardroom-dj.png").png  background-size: contain !important;
   background-repeat: no-repeat !important;
   background-position: center top !important;
   background-color: #02050a !important;
@@ -102,8 +102,8 @@ hero-boardroom-dj.png  background-size: contain !important;
 
 /* v17: use the provided latest image as the hero asset and prevent cropping */
 .hero-image{
-  background-image:url("assets/hero-boardroom-dj.png")!important;
-hero-boardroom-dj.png  background-repeat:no-repeat!important;
+  background-image:url("assets/url("hero-boardroom-dj.png").png")!important;
+url("hero-boardroom-dj.png").png  background-repeat:no-repeat!important;
   background-position:center top!important;
   background-color:#02050a!important;
 }
@@ -113,9 +113,9 @@ hero-boardroom-dj.png  background-repeat:no-repeat!important;
 
 /* v18: exact approved hero image, no image edits */
 .hero-image{
-  background-image:url("assets/hero-boardroom-dj.png")!important;
+  background-image:url("assets/url("hero-boardroom-dj.png").png")!important;
   background-size:contain!important;
-hero-boardroom-dj.png  background-position:center top!important;
+url("hero-boardroom-dj.png").png  background-position:center top!important;
   background-color:#02050a!important;
 }
 .hero-image:after{
@@ -128,10 +128,10 @@ hero-boardroom-dj.png  background-position:center top!important;
   overflow:visible!important;
 }
 .hero-image{
-  background-image:url("assets/hero-boardroom-dj.png")!important;
+  background-image:url("assets/url("hero-boardroom-dj.png").png")!important;
   background-size:contain!important;
   background-repeat:no-repeat!important;
-hero-boardroom-dj.png  background-color:#02050a!important;
+url("hero-boardroom-dj.png").png  background-color:#02050a!important;
   inset:0!important;
   transform:none!important;
 }
